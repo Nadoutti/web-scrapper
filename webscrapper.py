@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisetas?page=3"
+url = input('Cole a URL de algum site de E-commerce')
 
 response = requests.get(url)
 
